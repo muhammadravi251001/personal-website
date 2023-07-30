@@ -6,30 +6,42 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Muhammad Ravi",
   middleName: "",
-  lastName: "Shoaib",
+  lastName: "Shulthan Habibi",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
+      image: "fa-telegram",
+      url: "https://t.me/muhammadravi251001",
+    },
+    {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/muhammadravi251001",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/muhammad-ravi-shulthan-habibi/",
+    },
+    {
+      image: "fa-medium",
+      url: "https://medium.com/@muhammadravi251001",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://twitter.com/muhammadraviiii",
+    },
+    {
+      image: "fa-discord",
+      url: "https://discordapp.com/users/688598876701196290",
+    },
+    {
+      image: "fa-gitlab",
+      url: "https://gitlab.com/muhammadravi251001",
+    },
+    {
+      image: "fa-google",
+      url: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=muhammadravi251001@gmail.com&body=text-example",
     },
   ],
 };
@@ -51,11 +63,12 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/muhammadravi_image.jpeg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Muhammad Ravi Shulthan Habibi. I’m a undergraduate of 2023 from University of Indonesia with a degree in Computer Science. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of Natural Language Processing. In my free time I like working on open source projects.",
+  resume: "https://docs.google.com/document/d/1TzSLoTk9pA3HRRqnm5Xig0EJMEEz8Q9r/edit?usp=sharing&ouid=111560051507342615895&rtpof=true&sd=true",
+  email: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=muhammadravi251001@gmail.com&body=my-text"
 };
 
 // PROJECTS SECTION
@@ -66,7 +79,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "muhammadravi251001", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -101,13 +114,13 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
+    { name: "Mathematics", value: 95 },
+    { name: "Linear Algebra", value: 80 },
+    { name: "Statistics & Probability", value: 85 },
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "Data Structures", value: 65 },
     { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "HTML/CSS", value: 75 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,10 +139,11 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time (as a worker or researcher) Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "muhammadravi251001@gmail.com",
 };
 
+// EXPERIENCES SECTION
 const experiences = {
   show: false,
   heading: "Experiences",
@@ -148,8 +162,8 @@ const experiences = {
 }
 
 // Blog SECTION
-// const blog = {
-//   show: false,
-// };
+const blog = {
+   show: true,
+};
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
