@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.778eeed7.css",
+    "main.js": "/personal-website/static/js/main.615eb4e3.js",
+    "static/js/787.4b24f717.chunk.js": "/personal-website/static/js/787.4b24f717.chunk.js",
+    "static/media/hashirshoaeb.png": "/personal-website/static/media/hashirshoaeb.23e8b5a1f7de87f03d05.png",
+    "static/media/muhammadravi_image.jpeg": "/personal-website/static/media/muhammadravi_image.bea0df1e75495ab81f8a.jpeg",
+    "index.html": "/personal-website/index.html",
+    "main.778eeed7.css.map": "/personal-website/static/css/main.778eeed7.css.map",
+    "main.615eb4e3.js.map": "/personal-website/static/js/main.615eb4e3.js.map",
+    "787.4b24f717.chunk.js.map": "/personal-website/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.778eeed7.css",
+    "static/js/main.615eb4e3.js"
+  ]
+}
