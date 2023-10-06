@@ -6,7 +6,6 @@ import {
   about,
   repos,
   leadership,
-  skills,
   getInTouch,
   experiences
 } from "./editable-stuff/config.js";
@@ -62,13 +61,6 @@ const Home = React.forwardRef((props, ref) => {
           message={leadership.message}
           img={leadership.images}
           imageSize={leadership.imageSize}
-        />
-      )}
-      {skills.show && (
-        <Skills
-          heading={skills.heading}
-          hardSkills={skills.hardSkills}
-          softSkills={skills.softSkills}
         />
       )}
       

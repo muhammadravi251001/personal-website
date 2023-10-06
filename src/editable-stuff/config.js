@@ -48,13 +48,13 @@ const mainBody = {
 
 // ABOUT SECTION
 // If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
-//a) your Instagram username
+// a) your Instagram username
 //      i.e:profilePictureLink:"johnDoe123",
-//b) a link to an hosted image
+// b) a link to an hosted image
 //      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
-//c) image in "editable-stuff" directory and use require("") to import here,
+// c) image in "editable-stuff" directory and use require("") to import here,
 //      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
-//d) If you do not want any picture to be displayed, just leave it empty :)
+// d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
 //     i.e resume: require("../editable-stuff/resume.pdf"),
@@ -66,7 +66,10 @@ const about = {
   imageLink: require("../editable-stuff/muhammadravi_image.jpeg"),
   imageSize: 375,
   message:
-    "My name is Muhammad Ravi Shulthan Habibi. I’m a undergraduate of 2023 from University of Indonesia with a degree in Computer Science. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of Natural Language Processing. In my free time I like working on open source projects.",
+    "My name is Muhammad Ravi Shulthan Habibi. I am a recent Cum Laude graduate from the University of Indonesia with a major in Computer Science, \
+    specializing in Artificial Intelligence, specifically: NLP. I'm most passionate about giving back to the community, and my goal is to pursue \
+    this passion within the field of AI/ML/NLP/CV/DS. In my free time I like working on open source projects. You can view my resume, which includes\
+    my project code journey, publications, academic achievements, organizations, and more, below:",
   resume: "https://docs.google.com/document/d/1TzSLoTk9pA3HRRqnm5Xig0EJMEEz8Q9r/edit?usp=sharing&ouid=111560051507342615895&rtpof=true&sd=true",
   email: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=muhammadravi251001@gmail.com&body=my-text"
 };
@@ -79,8 +82,8 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "muhammadravi251001", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  gitHubUsername: "muhammadravi251001",
+  reposLength: 6,
   specificRepos: [],
 };
 
@@ -107,6 +110,7 @@ const leadership = {
 };
 
 // SKILLS SECTION
+/*
 const skills = {
   show: true,
   heading: "Skills",
@@ -131,13 +135,14 @@ const skills = {
     { name: "Creativity", value: 90 },
   ],
 };
+*/
 
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Get In Touch!",
   message:
-    "I'm currently looking for full-time (as a worker or researcher) Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time (as a worker or researcher) AI/ML/NLP/CV/DS ! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "muhammadravi251001@gmail.com",
 };
 
@@ -147,7 +152,7 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
+      role: 'Software Engineer',
       companylogo: require('../assets/img/dell.png'),
       date: 'June 2018 – Present',
     },
@@ -164,4 +169,4 @@ const blog = {
    show: true,
 };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
+export { navBar, mainBody, about, repos, leadership, getInTouch, experiences, blog };
