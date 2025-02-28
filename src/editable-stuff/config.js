@@ -92,7 +92,10 @@ const about = {
   📜 My [certifications](https://github.com/muhammadravi251001/certificates) can be found here.  
   📚 See my [Google Scholar](https://scholar.google.com/citations?user=4E9Ro_8AAAAJ) for publications.  
 
-  You can explore my resume, projects, certifications, and more below.
+  You can explore my resume, projects, certifications, and more below. \
+
+  
+  ***Note**: Texts that are **blue and underlined** contain hyperlinks leading to detailed information or credentials.*
   `,
   resume: "https://docs.google.com/document/d/1TzSLoTk9pA3HRRqnm5Xig0EJMEEz8Q9r/edit?usp=sharing&ouid=111560051507342615895&rtpof=true&sd=true",
   email: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=muhammadravi251001@gmail.com&body=my-text"
