@@ -43,6 +43,10 @@ const mainBody = {
       image: "fa-google",
       url: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=muhammadravi251001@gmail.com&body=text-example",
     },
+    {
+      image: "fa-drupal",
+      url: "https://huggingface.co/muhammadravi251001",
+    },
   ],
 };
 
@@ -65,11 +69,31 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/muhammadravi_image.jpeg"),
   imageSize: 375,
-  message:
-    "My name is Muhammad Ravi Shulthan Habibi. I am a recent Cum Laude graduate from the University of Indonesia with a major in Computer Science, \
-    specializing in Artificial Intelligence, specifically: NLP. I'm most passionate about giving back to the community, and my goal is to pursue \
-    this passion within the field of AI/ML/NLP/CV/DS. In my free time I like working on open source projects. You can view my resume, which includes\
-    my project code journey, publications, academic achievements, organizations, and more, below:",
+  message: `
+  My name is **Muhammad Ravi Shulthan Habibi**.  
+
+  I am a recent *Cum Laude* graduate from the **University of Indonesia** with a major in **Computer Science**,  \
+  specializing in Artificial Intelligence, particularly:  
+
+  - **Machine Learning**  
+  - **Deep Learning**  
+  - **Natural Language Processing (NLP)**  
+  - **Data Science**  
+
+  I have professional experience as:  
+
+  - **AI/ML Engineer** and **Data Scientist** at [Mekari](https://mekari.com/), where I developed and deployed AI-powered solutions, focusing on **machine learning**, **engineering**, and **data-driven decision-making**.
+  - **AI/NLP Researcher** at [University of Indonesia](https://www.ui.ac.id/), where I contributed to impactful AI research projects, including **multilingual NLP** and **low-resource language processing**.
+  - 🔗 For a more detailed and comprehensive view of my experience, check out my [LinkedIn](https://www.linkedin.com/in/muhammad-ravi-shulthan-habibi/) and **Resume** below.
+
+  I was a **finalist** in the [ML Olympiad 2024](https://github.com/muhammadravi251001/predicting-earthquake-damage), and my first research paper was published at [EMNLP Miami](https://aclanthology.org/2024.emnlp-main.296/).  \
+  I actively participate in AI research communities such as [IndoNLP](https://indonlp.github.io/) and [SEACrowd](https://seacrowd.github.io/seacrowd-catalogue/).  
+
+  📜 My [certifications](https://github.com/muhammadravi251001/certificates) can be found here.  
+  📚 See my [Google Scholar](https://scholar.google.com/citations?user=4E9Ro_8AAAAJ) for publications.  
+
+  You can explore my resume, projects, certifications, and more below.
+  `,
   resume: "https://docs.google.com/document/d/1TzSLoTk9pA3HRRqnm5Xig0EJMEEz8Q9r/edit?usp=sharing&ouid=111560051507342615895&rtpof=true&sd=true",
   email: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=muhammadravi251001@gmail.com&body=my-text"
 };
@@ -81,10 +105,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Selected Projects",
   gitHubUsername: "muhammadravi251001",
-  reposLength: 6,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ["multilingual-qas-with-nli", "qas-with-indonli", "pet-image-classification", "seacrowd-datahub"],
 };
 
 // Leadership SECTION
